@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.left {
+    background-color: red;
+    width: 540px;
+    height: 1030px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right {
+    background-color: blue;
+    width: 910px;
+    height: 1030px;
+}
+
+.logo {
+    background-color: purple;
+    width: 540px;
+    height: 150px;
+    position: relative;
+    top: 225px;
+}
+
+.background-attribution {
+    background-color: cyan;
+    width: 540px;
+    height: 100px;
+}
+
+.hero {
+    background-color: lightgreen;
+    width: 910px;
+    height: 375px;
+}
+
+.form-container {
+    width: 910px;
+    height: 705px;
+}
+
+.form-boxes {
+    background-color: antiquewhite;
+    width: 910px;
+    height: 300px;
+}
