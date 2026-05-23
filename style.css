@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "norse-bold";
+  src:
+    url("Norse-Bold.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
     display: flex;
     justify-content: center;
@@ -5,7 +14,9 @@ body {
 }
 
 .left {
-    background-color: red;
+    background-image: url('halie-west-25xggax4bSA-unsplash.jpg');
+    background-size: cover;
+    background-position: -72px;
     width: 540px;
     height: 1030px;
     display: flex;
@@ -19,18 +30,43 @@ body {
     height: 1030px;
 }
 
-.logo {
-    background-color: purple;
+.logo-container {
+    background-color: rgb(0 0 0 / 0.5);
     width: 540px;
     height: 150px;
     position: relative;
     top: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    background-image: url('odin-lined.png');
+    background-size: cover;
+    width: 96px;
+    height: 128px;
+}
+
+.logo-name {
+    color: white;
+    font-size: 6rem;
+    font-family: 'norse-bold', serif;
 }
 
 .background-attribution {
-    background-color: cyan;
     width: 540px;
-    height: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.17rem;
+    color: white;
+    font-size: 0.95rem;
+}
+
+.background-attribution a {
+    color: white;
 }
 
 .hero {
