@@ -14,15 +14,55 @@
         </div>
         <div class ="background-attribution">Photo by 
             <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Halie West</a>
-             on 
+            on
             <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
         </div>
     </div>
     <div class="right">
-        <div class="hero"></div>
+        <div class="hero">
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.</p>
+            <p>You <em>know</em> you want to.</p>
+        </div>
         <div class="form-container">
-            <div class="form-boxes"></div>
-            <div class="form-submission"></div>
+            <form action="example.com/path" method="post">       
+                <div class="form-boxes">
+                    <h2>Let's do this!</h2>
+                    <div class="form-top">
+                        <div>
+                            <label for="first_name">first name</label>
+                            <input type="text" id="first_name" required>
+                        </div>
+                        <div>
+                            <label for="last_name">last name</label>
+                            <input type="text" id="last_name" required>
+                        </div>
+                    </div>
+                    <div class="form-middle">
+                        <div>
+                            <label for="email">email</label>
+                            <input type="email" id="email" required>
+                        </div>
+                        <div>
+                            <label for="phone_number">phone number</label>
+                            <input type="tel" id="phone_number" required>
+                        </div>
+                    </div>
+                    <div class="form-bottom">
+                        <div>
+                            <label for="password">password</label>
+                            <input type="password" id="password" minlength="8" required>
+                        </div>
+                        <div>
+                            <label for="password_confirm">confirm password</label>
+                            <input type="password" id="password_confirm" minlength="8" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-submission">
+                    <button type="submit" class="form-button">Create Account</button>
+                    <p>Already have an account? <a href="">Log in</a></p>
+                </div>
+            </form>
         </div>
     </div>
 </body>
